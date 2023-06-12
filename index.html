@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="script.js"></script>
     <title>XP_Nostalgia</title>
 </head>
@@ -20,11 +21,22 @@
     </div>
     <div class="main">
         <div class="container">
-            <div id="startUp" class="button"></div>
-            <div id="" class="button"></div>
-            <div id="" class="button"></div>
-            <div id="" class="button"></div>
-            <div id="" class="button"></div>
+            <div id="startUp" class="button">
+                <img src="/images/icon.svg" alt="Windows Xp Icon">
+                
+            </div>
+            <div id="lowBattery" class="button">
+                <img src="/images/icon.svg" alt="Windows Xp Icon">
+            </div>
+            <div id="tada" class="button">
+                <img src="/images/icon.svg" alt="Windows Xp Icon">
+            </div>
+            <div id="exclamation" class="button">
+                <img src="/images/icon.svg" alt="Windows Xp Icon">
+            </div>
+            <div id="logOff" class="button">
+                <img src="/images/icon.svg" alt="Windows Xp Icon">
+            </div>
         </div>
     </div>
     <div class="footer">
@@ -33,7 +45,11 @@
             <li><a href="https://www.instagram.com/samnewell91/">Instagram</a></li>
         </ul>
     </div>
-
+<audio id="startSound" src="/Sounds/Windows XP Startup.mp3"></audio>
+<audio id="batterySound" src="/Sounds/Windows XP Battery Critical.mp3"></audio>
+<audio id="tadaSound" src="/Sounds/tada.mp3"></audio>
+<audio id="exclamationSound" src="/Sounds/Windows XP Exclamation.mp3"></audio>
+<audio id="logOffSound" src="/Sounds/Windows XP Logoff Sound.mp3"></audio>
 
 </body>
 
