@@ -13,6 +13,7 @@ body {
 }
 
 .header, .footer {
+    color: #355979;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -22,9 +23,18 @@ body {
     letter-spacing: 2px;
 }
 
+.footer {
+    font-size: 14px;
+}
+
 .footer ul li {
     display: inline;
     margin: 0 30px 0 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #355979;
 }
 .main {
     flex: 1;
