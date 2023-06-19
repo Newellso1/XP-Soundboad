@@ -1,5 +1,3 @@
-const button = document.get
-
 $('#startUp').click(function () {
     $(this).effect("shake", {distance: 5});
     var audio = document.getElementById('startSound');
